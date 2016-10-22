@@ -91,6 +91,7 @@ static const Rule rules[] = {
 	{ "qutebrowser",        NULL,		NULL,		1 << 0,			0,			-1 },
 	{ "Termite",            NULL,		NULL,		1 << 1,			0,			-1 },
 	{ "Thunderbird",    	NULL,		NULL,		1 << 3,			0,			-1 },
+	{ "Evolution",      	NULL,		NULL,		1 << 3,			0,			-1 },
 	{ "Speedcrunch",	    NULL,		NULL,		0,				1,			-1 },
 	{ "Nautilus",		    NULL,		NULL,		0,				0,			-1 },
     { "Tilda",              NULL,       NULL,       0,              1,          -1 },
@@ -128,7 +129,7 @@ static const char *dmenucmd[]      = { "/home/frank604/src/scripts/emenu_run", "
 static const char *termcmd[] 		= { "termite", NULL };
 /*static const char *webcmd[] 		= { "qutebrowser", NULL };*/
 static const char *webcmd[] 		= { "qutebrowser", "--backend", "webengine", NULL };
-static const char *mailcmd[] 		= { "thunderbird-beta", NULL };
+static const char *mailcmd[] 		= { "evolution", NULL };
 static const char *calccmd[] 		= { "speedcrunch", NULL };
 static const char *calendarcmd[] 	= { "gsimplecal", NULL };
 static const char *filecmd[] 		= { "nautilus", NULL };
